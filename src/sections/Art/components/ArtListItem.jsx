@@ -1,11 +1,11 @@
 
 
-function ArtListItem({ artItem}) {
+function ArtListItem({ artItem }) {
     return (
         <li>
             <div className="frame">
                 <img
-                src={`https://boolean-api-server.fly.dev${artItem.imageUrl}`}
+                src={`https://boolean-uk-api-server.fly.dev${artItem.imageURL}`}
                 alt={artItem.title}
                 />
             </div>
